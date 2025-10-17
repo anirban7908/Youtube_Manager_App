@@ -18,6 +18,7 @@ def list_all_videos(videos):
     print('*' * 70)
     for index ,video in enumerate(videos, start = 1):
         print(f"{index}: Name: {video['name']}, Duration: {video['time']}")
+    print('\n')
     print('*' * 70)
     
 def add_video(videos):
